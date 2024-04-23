@@ -5,15 +5,28 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'UhBeemysen';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeemysen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-image: url('../images/homebg.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
 .home {
     position: relative;
-    min-height: 100vh;
+    min-height: 98vh;
 }
 
 .btnContainer {
@@ -28,13 +41,32 @@ body {
 
 .btnContainer button {
     font-family: 'PyeongChangPeace-Bold';
-    width: 412px;
-    height: 123px;
+    width: 415px;
+    height: 125px;
 
     border: none;
     border-radius: 20px;
 
-    font-size: 96px;
+    font-size: 95px;
     background-color: white;
     color: #3373FF;
+}
+
+.info {
+    position: fixed;
+    right: 0;
+    margin: 30px;
+}
+
+.modalContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 790px;
+    height: 930px;
+    background-color: white;
+    border-radius: 25px;
 }
