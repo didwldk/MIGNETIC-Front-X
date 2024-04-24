@@ -1,4 +1,3 @@
-import '../css/reset.css'
 import '../css/Letter.css'
 import envelop1 from '../images/Envelope1.png'
 import envelop2 from '../images/Envelope2.png'
