@@ -1,5 +1,4 @@
-import '../css/reset.css';
-import '../css/Hot_place';
+// import '../css/Hot_place';
 
 import { useEffect } from "react";
 
