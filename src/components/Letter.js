@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 import React, { useState } from 'react';
-=======
->>>>>>> ee8231a32c4d82951eb5608771e34165443850a8
 import '../css/Letter.css'
 import envelop1 from '../images/Envelope1.png'
 import envelop2 from '../images/Envelope2.png'
