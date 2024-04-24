@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+import '../css/home.css'
+=======
+>>>>>>> ee8231a32c4d82951eb5608771e34165443850a8
 import { useNavigate } from 'react-router-dom'
 
 
