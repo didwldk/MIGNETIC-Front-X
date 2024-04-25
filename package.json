@@ -9,7 +9,11 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "react-modal": "^3.16.1",
+=======
+    "react-kakao-maps-sdk": "^1.1.26",
+>>>>>>> 07f8156d2faaa800705b29b779265e20c2375a36
 =======
     "react-kakao-maps-sdk": "^1.1.26",
 >>>>>>> 07f8156d2faaa800705b29b779265e20c2375a36
