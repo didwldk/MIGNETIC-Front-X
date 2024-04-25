@@ -1,0 +1,54 @@
+.NLetter{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    overflow: hidden;;
+    justify-content: center;
+}
+
+.Nenvelop1 img{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    bottom: 0;
+}
+
+.Nenvelop2 img{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    bottom: 0;
+}
+
+.Nenvelop1 img,
+.Nenvelop2 img {
+    cursor: pointer; /* added cursor pointer */
+}
+
+.NletterPaper{
+    background-color: white;
+    width: 200px;
+    height: 90px;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    visibility: hidden;
+    text-align: left; 
+    /* animation: slideUp 2s ease forwards; */
+}
+
+.Nenvelop2:hover .NletterPaper,
+.Nenvelop2 .NletterPaper:hover {
+    visibility: visible;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
