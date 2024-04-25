@@ -1,7 +1,7 @@
 import React from 'react';
 import Letter from '../components/Letter'
 
-function Letterpage() {
+function LetterPage() {
     return (
         <div>
             <Letter />
@@ -9,4 +9,4 @@ function Letterpage() {
     )
 }
 
-export default Letterpage
+export default LetterPage
