@@ -1,0 +1,16 @@
+body{
+    background-image: none;
+    background-color: #3373FF;
+}
+.place{
+    background-color: white;
+    width: 1860px;
+    margin-top: 242px;
+}
+
+.place > #map{
+
+    width: 1366px;
+    height: 700px;
+    left: 456px;
+}
