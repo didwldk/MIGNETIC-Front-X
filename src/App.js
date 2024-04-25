@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import Main from './pages/Main'
 import Who from './pages/Who'
-import LetterPage from './pages/LetterPage';
+import LetterPage from './pages/Letterpage';
 import HotPlacePage from './pages/HotPlacePage';
 import NoticeBoard from './components/NoticeBoard'
 
