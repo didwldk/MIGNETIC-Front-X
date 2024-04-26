@@ -5,6 +5,7 @@ import Who from './pages/Who'
 import LetterPage from './pages/LetterPage';
 import HotPlacePage from './pages/HotPlacePage';
 import NoticeBoard from './components/NoticeBoard'
+import Test from './components/Test'
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
           <Route path='/who' element={<Who />}></Route>
           <Route path='/letter' element={<LetterPage />}></Route>
           <Route path='/hotplace' element={<HotPlacePage />}></Route>
-          <Route path='/NoticeBoard' element={<NoticeBoard />}></Route>
+          <Route path='/noticeboard' element={<NoticeBoard />}></Route>
+          <Route path='/test' element={<Test />}></Route>
         </Routes>
       </div>
     </BrowserRouter>
