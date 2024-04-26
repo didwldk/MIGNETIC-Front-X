@@ -122,11 +122,11 @@ body{
     transition: transform 0.2s ease; /* 변화가 일어날 때 부드럽게 이동하도록 설정 */
 }
 
-button:hover {
+.buttonContainer button:hover {
     transform: translateY(-7px); /* 마우스를 오버했을 때 위로 5px 이동 */
 }
 
-button:active{
+.buttonContainer button:active{
     transform: translateY(1px); /* 마우스를 오버했을 때 위로 5px 이동 */
 
 }
