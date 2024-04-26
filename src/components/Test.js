@@ -1,5 +1,6 @@
 import '../css/Test.css'
-import bgImg from '../images/testbg.png';
+import bgImg from '../images/testbg.png'
+import Info from '../components/common/Info'
 
 function Test() {
     document.body.style.backgroundImage = `url(${bgImg})`;
@@ -10,6 +11,8 @@ function Test() {
                 <button>선생님</button>
                 <button>외부인</button>
             </div>
+
+            <Info />
         </div>
     )
 }
