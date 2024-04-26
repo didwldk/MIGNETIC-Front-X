@@ -16,6 +16,13 @@
     align-items: center;
     padding-bottom: 62px;
 }
+.place{
+    overflow: hidden;
+    background-color: white;
+    width: 1600px;
+    height: 776px;
+    border-radius: 10px;
+}
 .logo-img{
     margin-top: 36px;
     margin-bottom: 21px;
@@ -24,12 +31,30 @@
 .logo-img > img{
     width: 451px;
 }
-.place{
-    overflow: hidden;
-    background-color: white;
-    width: 1600px;
-    height: 776px;
-    border-radius: 10px;
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    position: fixed;
+    margin-left: 75px;
+    margin-top: 55px;
+}
+
+.btns button {
+    background-color: #DBEAFF;
+    width: 285px;
+    height: 120px;
+    border-radius: 15px;
+    transition: 0.3s;
+
+    font-family: 'NanumSquareNeo-Variable';
+    font-weight: bold;
+    color: #3373FF;
+    font-size: 75px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .map-class{
