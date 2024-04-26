@@ -12,7 +12,7 @@ function Home() {
     const [modalIsOpen, setModalIsOpen] = useState(false);
 
     const handleOnclickTest = () => {
-        navigate('/test')
+        navigate('/who')
     }
 
     const handleOnclickView = () => {

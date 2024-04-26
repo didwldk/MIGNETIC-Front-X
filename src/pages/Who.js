@@ -1,9 +1,8 @@
-import '../css/Who.css'
-
-const who= ()=> {
+import Test from '../components/Test'
+const who = () => {
     return (
         <div>
-
+            <Test />
         </div>
     )
 }
