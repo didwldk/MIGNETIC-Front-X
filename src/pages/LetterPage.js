@@ -7,6 +7,6 @@ function LetterPage() {
             <Letter />
         </div>
     )
-}
+} 
 
 export default LetterPage
