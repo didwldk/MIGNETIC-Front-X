@@ -38,6 +38,10 @@ function Hot_place(){
         <div class = "full-display">
             <div class = "logo-img"><img src={logo}/></div> 
             <div class="place">
+                <button>카페</button>
+                <button>카페</button>
+                <button>카페</button>
+                <button>카페</button>
                 <div id="map" class="map-class"></div>
             </div>
         </div>
