@@ -13,6 +13,9 @@
     gap: 60px;
     position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 150px;
 }
 
 .testBtn button {
@@ -20,6 +23,7 @@
     width: 760px;
     height: 120px;
     border-radius: 15px;
+    margin: 0 auto;
 
     font-family: 'NanumSquareNeo-Variable';
     font-weight: bold;
