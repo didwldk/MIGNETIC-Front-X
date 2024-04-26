@@ -4,10 +4,10 @@ import { markerdata } from './markerData';
 import bgImg from '../images/bgImg.png';
 import logo from '../images/icons/logo.png';
 
-function Hot_place(){
+function Hot_place() {
     document.body.style.backgroundImage = `url(${bgImg})`;
-    const {kakao} = window;
-    
+    const { kakao } = window;
+
     useEffect(() => {
         mapscript();
     }, []);
@@ -30,18 +30,20 @@ function Hot_place(){
             });
         });
     };
-    
 
 
 
-    return(
-        <div class = "full-display">
-            <div class = "logo-img"><img src={logo}/></div> 
+
+    return (
+        <div class="full-display">
+            <div class="logo-img"><img src={logo} /></div>
             <div class="place">
-                <button class ="btn">카페</button>
-                <button class ="btn">편의점</button>
-                <button class ="btn">디져트</button>
-                <button class ="btn">맛집</button>
+                <div class="btns">
+                    <button>카페</button>
+                    <button>편의점</button>
+                    <button>디져트</button>
+                    <button>맛집</button>
+                </div>
                 <div id="map" class="map-class"></div>
             </div>
         </div>
