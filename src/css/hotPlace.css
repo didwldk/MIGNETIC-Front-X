@@ -5,6 +5,10 @@
     font-style: normal;
 }
 
+.hot-place{
+    display: flex;
+}
+
 .full-display{
     margin: 0;
     width: 100%;
@@ -16,6 +20,7 @@
     align-items: center;
     padding-bottom: 62px;
 }
+
 .place{
     overflow: hidden;
     background-color: white;
@@ -48,7 +53,6 @@
     width: 285px;
     height: 120px;
     border-radius: 15px;
-    transition: 0.3s;
 
     font-family: 'NanumSquareNeo-Variable';
     font-weight: bold;
@@ -63,4 +67,5 @@
     left: 456px;
     top: 38px;
     border-radius: 10px;
+    z-index: 0;
 }

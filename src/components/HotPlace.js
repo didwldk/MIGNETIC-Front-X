@@ -1,6 +1,10 @@
 import React, { useRef, useEffect, useState } from "react";
 import '../css/HotPlace.css';
+import '../css/common/Info.css';
 import { markerdata } from './markerData';
+
+
+import Info from '../components/common/Info'
 import bgImg from '../images/bgImg.png';
 import logo from '../images/icons/logo.png';
 
@@ -35,17 +39,20 @@ function Hot_place() {
 
 
     return (
-        <div class="full-display">
-            <div class="logo-img"><img src={logo} /></div>
-            <div class="place">
-                <div class="btns">
-                    <button>카페</button>
-                    <button>편의점</button>
-                    <button>디져트</button>
-                    <button>맛집</button>
+        <div class="hot-place">
+            <div class="full-display">
+                <div class="logo-img"><img src={logo} /></div>
+                <div class="place">
+                    <div class="btns">
+                        <button>카페</button>
+                        <button>편의점</button>
+                        <button>디져트</button>
+                        <button>맛집</button>
+                    </div>
+                    <div id="map" class="map-class"></div>
                 </div>
-                <div id="map" class="map-class"></div>
             </div>
+            <Info />
         </div>
     )
 }
