@@ -49,6 +49,16 @@
 }
 
 .btns button {
+    background-color: white;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+.btns button.active {
+    background-color: #76A1FF;
+    color: white;
+}
+
+.btns button {
     background-color: #DBEAFF;
     width: 285px;
     height: 120px;
