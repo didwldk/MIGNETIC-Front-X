@@ -6,20 +6,6 @@
 }
 
 /* Test */
-.testBtn,
-.enterStudent input {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-bottom: 150px;
-}
-
 .testBtn button,
 .enterStudent input {
     background-color: #DBEAFF;
@@ -32,21 +18,52 @@
     font-weight: bold;
     color: #3373FF;
     font-size: 75px;
+}
+
+.testBtn button {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.testBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 150px;
 }
 
 
 /* EnterStudent */
-/* .enterStudent input {
-    background-color: #DBEAFF;
-    width: 760px;
-    height: 120px;
-    border-radius: 15px;
-    margin: 0 auto;
+.enterStudentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    font-family: 'NanumSquareNeo-Variable';
-    font-weight: bold;
+.enterStudentBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 275px;
+}
+
+.enterStudentBox input {
+    box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    text-indent: 20px;
+}
+
+.enterStudentBox input::placeholder {
     color: #3373FF;
-    font-size: 75px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-} */
+}
