@@ -5,7 +5,9 @@
     font-style: normal;
 }
 
-.testBtn {
+/* Test */
+.testBtn,
+.enterStudent input {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +20,8 @@
     margin-bottom: 150px;
 }
 
-.testBtn button {
+.testBtn button,
+.enterStudent input {
     background-color: #DBEAFF;
     width: 760px;
     height: 120px;
@@ -31,3 +34,19 @@
     font-size: 75px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
+
+
+/* EnterStudent */
+/* .enterStudent input {
+    background-color: #DBEAFF;
+    width: 760px;
+    height: 120px;
+    border-radius: 15px;
+    margin: 0 auto;
+
+    font-family: 'NanumSquareNeo-Variable';
+    font-weight: bold;
+    color: #3373FF;
+    font-size: 75px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+} */
