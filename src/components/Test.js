@@ -21,7 +21,7 @@ function Test() {
         <div className='Test'>
             <Info />
             
-            <div className='testBtn'>
+            <div className='testBtnContainer'>
                 <button onClick={handleOnclilckStudent}>학생</button>
                 <button onClick={handleOnclilckTeacher}>선생님</button>
                 <button onClick={handleOnclilckOutsider}>외부인</button>

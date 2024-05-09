@@ -9,9 +9,18 @@ function EnterStudent() {
         <div className="enterStudent">
             <Info />
 
-            <div className='enterStudentBox'>
-                <input type="text" placeholder="이름" id='studentName'/>
-                <input type="text" placeholder="과목" id='studentSubject'/>
+            <div className='enterStudentContainer'>
+                <div className='enterStudentBox'>
+                    <input className='inputText' type="text" placeholder="이름" id='studentName' />
+                    <input className='inputText' type="text" placeholder="과목" id='studentSubject' />
+
+                    <div className='privacyContainer'>
+                        개인정보정의
+                        <input className='inputCheck' type="checkbox" />
+                    </div>
+                </div>
+
+                <button className='testBtn'>검사하기</button>
             </div>
         </div>
     )
