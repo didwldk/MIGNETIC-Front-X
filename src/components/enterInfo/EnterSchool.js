@@ -1,14 +1,20 @@
 import bgImg from '../../images/testbg.png'
-import Info from '../common/Info'
 import '../../css/Who.css'
+import Info from '../../components/common/Info'
+
+import { useNavigate } from 'react-router-dom';
 
 function EnterStudent() {
     document.body.style.backgroundImage = `url(${bgImg})`;
+    const navigate= useNavigate()
+
+    const handleSubmit= ()=> {
+        navigate('/question')
+    }
 
     return (
         <div className="enterStudent">
             <Info />
-
             <div className='enterStudentContainer'>
                 <div className='enterStudentBox'>
                     <input className='inputText' type="text" placeholder="이름" id='studentName' />
@@ -20,7 +26,7 @@ function EnterStudent() {
                     </div>
                 </div>
 
-                <button className='testBtn'>검사하기</button>
+                <button className='testBtn' onClick={handleSubmit}>검사하기</button>
             </div>
         </div>
     )

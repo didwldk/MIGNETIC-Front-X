@@ -1,12 +1,17 @@
 import Modal from 'react-modal';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import '../../css/common/Info.css'
-import info from '../../images/icons/info.png'
+import info_white from '../../images/icons/info_white.png'
+import info_blue from '../../images/icons/info_blue.png'
 import close from '../../images/icons/close.png'
 
-function Info() {
+function Info({ type }) {
     const [modalIsOpen, setModalIsOpen] = useState(false);
+
+    useEffect(() => {
+        Modal.setAppElement('#root');
+    }, []);
 
     const openModal = () => {
         setModalIsOpen(true);
@@ -16,9 +21,19 @@ function Info() {
         setModalIsOpen(false);
     };
 
+    const btnType = ['white', 'blue'].includes(type) ? type : 'white';
+
+    const btnColor = ({ btnType }) => {
+        if (btnType === 'white') return info_white
+        else if (btnType === 'blue') return info_blue
+        else return null
+    }
+
     return (
         <div className='info'>
-            <button onClick={openModal} className='info'><img src={info} /></button>
+            <button onClick={openModal} className={["info", `info_${btnType}`].join(" ")}>
+                <img src={btnColor({btnType})} alt={btnType}/>
+            </button>
 
             <div className='modalContainer'>
                 <Modal className='modal' isOpen={modalIsOpen} onRequestClose={closeModal}>

@@ -1,9 +1,9 @@
-@font-face {
+/* @font-face {
     font-family: 'NanumSquareNeo-Variable';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 /* Test */
 .testBtnContainer {
@@ -27,7 +27,7 @@
     border-radius: 15px;
     margin: 0 auto;
 
-    font-family: 'NanumSquareNeo-Variable';
+    /* font-family: 'NanumSquareNeo-Variable'; */
     font-weight: bold;
     color: #3373FF;
     font-size: 75px;
@@ -90,7 +90,7 @@
     color: #3373FF;
     font-size: 35px;
     font-weight: bold;
-    font-family: 'NanumSquareNeo-Variable';
+    /* font-family: 'NanumSquareNeo-Variable'; */
 
     display: flex;
     align-items: center;
