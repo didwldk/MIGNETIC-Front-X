@@ -4,6 +4,8 @@ import Main from './pages/Main'
 import Who from './pages/Who'
 import LetterPage from './pages/LetterPage';
 import HotPlacePage from './pages/HotPlacePage';
+import Question from './pages/Question';
+
 import NoticeBoard from './components/NoticeBoard'
 import EnterSchool from './components/enterInfo/EnterSchool'
 import EnterOutsider from './components/enterInfo/EnterOutsider'
@@ -20,6 +22,7 @@ function App() {
           <Route path='/noticeboard' element={<NoticeBoard />}></Route>
           <Route path='/enterschool' element={<EnterSchool />}></Route>
           <Route path='/enteroutsider' element={<EnterOutsider />}></Route>
+          <Route path='/question' element={<Question />}></Route>
         </Routes>
       </div>
     </BrowserRouter>
