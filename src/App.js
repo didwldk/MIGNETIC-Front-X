@@ -5,7 +5,8 @@ import Who from './pages/Who'
 import LetterPage from './pages/LetterPage';
 import HotPlacePage from './pages/HotPlacePage';
 import NoticeBoard from './components/NoticeBoard'
-import EnterStudent from './components/enterInfo/EnterStudent'
+import EnterSchool from './components/enterInfo/EnterSchool'
+import EnterOutsider from './components/enterInfo/EnterOutsider'
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
           <Route path='/letter' element={<LetterPage />}></Route>
           <Route path='/hotplace' element={<HotPlacePage />}></Route>
           <Route path='/noticeboard' element={<NoticeBoard />}></Route>
-          <Route path='/enterstudent' element={<EnterStudent />}></Route>
+          <Route path='/enterschool' element={<EnterSchool />}></Route>
+          <Route path='/enteroutsider' element={<EnterOutsider />}></Route>
         </Routes>
       </div>
     </BrowserRouter>
