@@ -1,0 +1,55 @@
+.RandomQuestion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 170px;
+    gap: 65px;
+}
+
+.questionTitle {
+    font-size: 64px;
+    font-weight: bolder;
+    color: white;
+}
+
+.questionContainer .questions:hover,
+.questionContainerVer2 .questionsVer2:hover{
+    background-color: #ABC5FF;
+    color: white;
+}
+
+.questionContainer {
+    display: flex;
+    flex-direction: column;
+    gap:25px
+}
+.questionContainer .questions {
+    width: 540px;
+    height: 130px;
+    background-color: white;
+    border-radius: 10px;
+
+    font-size: 45px;
+    font-weight: bold;
+    color: #3373FF;
+}
+
+.questionContainerVer2 {
+    display: flex;
+    gap:35px
+}
+.questionContainerVer2 .questionsVer2 {
+    width: 285px;
+    height: 335px;
+    background-color: white;
+    border-radius: 10px;
+
+    font-size: 45px;
+    font-weight: bold;
+    color: #3373FF;
+}
