@@ -1,5 +1,5 @@
 import bgImg from '../../images/testbg.png'
-import Info from '../../components/common/Info'
+import Info from '../common/Info'
 import '../../css/Who.css'
 
 function EnterStudent() {

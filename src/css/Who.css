@@ -82,6 +82,10 @@
     color: #3373FF;
 }
 
+.inputText:focus {
+    outline: none;
+}
+
 .privacyContainer {
     color: #3373FF;
     font-size: 35px;
@@ -107,4 +111,18 @@
 .inputCheck {
     width: 32px;
     height: 32px;
+}
+
+/* EnterOutsider */
+.radioContainer input[type="radio"] {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.radioContainer .radioLabel {
+    margin-right: 30px; 
+    font-size: 55px;
+    font-weight: bold;
+    color: #3373FF;
 }
