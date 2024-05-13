@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.result {
+    overflow: hidden;
+    display: flex;
+    display: flex;
+    font-display: row;  
+}
+
+.full-display {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3373FF;
+    padding-bottom: 62px;
+    overflow: scroll;
+}
+.result-logo-img {
+    margin-top: 218px;
+    margin-left: 35px;
+    z-index: 100;
+}
+
+.result-logo-img > img {
+    width: 179px;
+}
+
+.type {
+    margin-top: 372px;
+    text-align: center;
+    z-index: 50;
+}
+
+.my-type {
+    font-family: 'NanumSquareNeo-Variable';
+    font-size: 30px;
+}
+
+.bgimg-result {
+    background-repeat: repeat-y;
+    width: 1418px;
+    height: 1295px;
+    z-index: 0;
+    text-align: center;
+}
