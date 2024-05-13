@@ -17,7 +17,7 @@ function EnterOutsider() {
             <Info />
             <div className='enterStudentContainer'>
                 <div className='enterStudentBox'>
-                    <input className='inputText' type="text" placeholder="이름" id='studentName' />
+                    <input className='inputText' type="text" placeholder="이름" id='studentName' autoComplete="off"/>
 
                     <div className='radioContainer'>
                         <input type="radio" id="contactChoice1" name="contact" value="parent" />
@@ -31,7 +31,7 @@ function EnterOutsider() {
                     </div>
 
                     <div className='privacyContainer'>
-                        개인정보정의
+                        개인정보동의
                         <input className='inputCheck' type="checkbox" />
                     </div>
                 </div>
